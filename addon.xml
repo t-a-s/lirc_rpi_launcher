@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="lirc_rpi_launcher" 
+	version="0.0.1"
+	name="Lirc_RPi Launcher" 
+	provider-name="tas*">
+  <requires>
+  </requires>
+  <extension point="xbmc.service"
+             library="addon.py" start="startup">
+  </extension>
+  <provides>Service</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Lirc_RPi Launcher</summary>
+    <description lang="en">Simple addon to launch Lirc_RPi on start up.</description>
+  </extension>
+</addon>
